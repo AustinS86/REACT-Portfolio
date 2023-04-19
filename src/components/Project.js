@@ -1,6 +1,6 @@
 import React from "react";
 
-const Work = () => {
+const Project = () => {
   return (
     <section id="work" className="mb-10">
       <h1 className="text-4xl mb-4 font-bold">Projects & Challenges</h1>
@@ -50,4 +50,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Project;

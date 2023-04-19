@@ -15,8 +15,8 @@ const Header = () => {
         <a href="#about-me" className="bg-blue-200 text-black p-2 rounded">
           About Me
         </a>
-        <a href="#work" className="bg-blue-200 text-black p-2 rounded">
-          Work
+        <a href="#portfolio" className="bg-blue-200 text-black p-2 rounded">
+          Portfolio
         </a>
         <a href="#resume" className="bg-blue-200 text-black p-2 rounded">
           Resume
