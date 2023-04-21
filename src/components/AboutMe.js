@@ -1,10 +1,11 @@
 import React from "react";
+import starwars from "../assets/images/starwars.jpg";
 
 const AboutMe = () => {
   return (
     <section id="about-me" className="mb-10">
       <img
-        src="assets\images\starwars.jpg"
+        src={starwars}
         alt="myself drinking blue milk at galaxy's edge"
         className="w-64 h-64 object-cover rounded-2xl"
       />
