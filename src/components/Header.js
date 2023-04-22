@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 
 const Header = ({ setSelectedSection }) => {
   return (
-    <header className="bg-coolors-1 text-white p-4 text-center">
+    <header className=" bg-coolors-gradient text-white p-4 text-center">
       <h1 className=" text-3xl font-bold">Austin Stancil Portfolio</h1>
       <div className="flex justify-center mt-2">
         <img

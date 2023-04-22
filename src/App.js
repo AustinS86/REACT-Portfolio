@@ -11,12 +11,14 @@ function App() {
   const [selectedSection, setSelectedSection] = useState("about-me");
 
   return (
-    <div className="bg-gray-400 font-mono">
+    <div className=" bg-coolors-gradient font-mono min-h-screen flex flex-col">
       <Header setSelectedSection={setSelectedSection} />
-      {selectedSection === "about-me" && <AboutMe />}
-      {selectedSection === "portfolio" && <Work />}
-      {selectedSection === "resume" && <Resume />}
-      {selectedSection === "contact" && <Contact />}
+      <div className="flex-grow">
+        {selectedSection === "about-me" && <AboutMe />}
+        {selectedSection === "portfolio" && <Work />}
+        {selectedSection === "resume" && <Resume />}
+        {selectedSection === "contact" && <Contact />}
+      </div>
       <Footer />
     </div>
   );

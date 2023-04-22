@@ -7,7 +7,7 @@ import pasta from "../assets/images/spaghetti-1932466_1920 (1).jpg";
 
 const Work = () => {
   return (
-    <section id="work" className="mb-10">
+    <section id="work" className="mb-0 bg-coolors-gradient">
       <h1 className="text-4xl mb-4 font-bold">Projects & Challenges</h1>
       <div className="flex flex-wrap space-x-4 space-y-4 lg:space-x-20 lg:space-y-0">
         <Project
