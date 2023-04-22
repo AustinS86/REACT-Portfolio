@@ -1,37 +1,37 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
-    <div>
-      <section id="contact" className="contact mb-10">
-        <h1 className="text-4xl font-bold">Contact</h1>
-      </section>
-      <section className="links grid grid-cols-3 gap-1 text-center">
+    <div className="bg-coolors-2">
+      <section className="flex justify-center space-x-6 text-center">
         <h3>
           <a
             href="mailto:austin.stancil@yahoo.com"
-            className="bg-blue-200 text-black font-bold p-2 rounded"
+            className=" text-black font-bold p-2 rounded"
             alt="email"
           >
-            austin.stancil@yahoo.com
+            <FontAwesomeIcon icon={faEnvelope} size="2x" />
           </a>
         </h3>
         <h3>
           <a
             href="https://github.com/AustinS86"
-            className="bg-blue-200 text-black font-bold p-2 rounded"
+            className=" text-black font-bold p-2 rounded"
             alt="Github"
           >
-            Github
+            <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
         </h3>
         <h3>
           <a
             href="https://www.linkedin.com/in/austin-stancil-00029480"
-            className="bg-blue-200 text-black font-bold p-2 rounded"
+            className=" text-black font-bold p-2 rounded"
             alt="Linkedin"
           >
-            Linkedin
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
         </h3>
       </section>

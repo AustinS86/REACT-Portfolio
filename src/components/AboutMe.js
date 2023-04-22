@@ -3,17 +3,14 @@ import starwars from "../assets/images/starwars.jpg";
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className="mb-10">
+    <section id="about-me" className="mb-10 bg-coolors-2 mx-4">
       <img
         src={starwars}
         alt="myself drinking blue milk at galaxy's edge"
         className="w-64 h-64 object-cover rounded-2xl"
       />
       <h1 className="text-4xl mt-4 font-bold">About Me</h1>
-      <p
-        className="mt-4 text-2xl text-white"
-        style={{ backgroundColor: "rgba(53, 54, 53, 0.74)" }}
-      >
+      <p className="mt-4 text-2xl text-white">
         Hello! I'm Austin, and I live in Connecticut with my wonderful wife,
         Sarah, and our energetic 2-year-old yellow lab, Remy Alfredo. I have a
         wide range of hobbies that include watching movies, playing video games,
