@@ -5,11 +5,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        // "coolors-1": "#89A894",
-        // "coolors-2": "#4B644A",
-        "coolors-3": "#ADFCF9",
         "coolors-1": "#08203E",
         "coolors-2": "#557C93",
+        "coolors-3": "#0D98BA",
       },
       backgroundImage: (theme) => ({
         "coolors-gradient": `linear-gradient(135deg, ${theme(

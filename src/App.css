@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.bullet-points {
+  list-style: disc;
+  padding-left: 3rem;
+}

@@ -1,7 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -9,11 +12,11 @@ const Footer = () => {
       <section className="flex justify-center space-x-6 text-center">
         <h3>
           <a
-            href="mailto:austin.stancil@yahoo.com"
+            href="https://twitter.com/austinstancil86"
             className=" text-black font-bold p-2 rounded"
-            alt="email"
+            alt="Twitter"
           >
-            <FontAwesomeIcon icon={faEnvelope} size="2x" />
+            <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
         </h3>
         <h3>
