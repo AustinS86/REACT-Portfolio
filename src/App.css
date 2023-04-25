@@ -41,3 +41,22 @@
   list-style: disc;
   padding-left: 3rem;
 }
+
+.project-container {
+  position: relative;
+}
+
+.project-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-container:hover .project-info {
+  opacity: 1;
+}
