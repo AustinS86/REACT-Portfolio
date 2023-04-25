@@ -1,5 +1,7 @@
 import React from "react";
 import Container from "./Container";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Resume = () => {
   return (
@@ -15,6 +17,7 @@ const Resume = () => {
             download
             className=" mb-4 py-2 px-4 rounded bg-coolors-3 text-white font-bold"
           >
+            <FontAwesomeIcon icon={faDownload} className="mr-2" />
             Download Resume
           </a>
           <section className="w-full">
