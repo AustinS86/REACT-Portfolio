@@ -7,6 +7,13 @@ const Contact = () => {
   const [messageError, setMessageError] = useState("false");
   const [submitted, setSubmitted] = useState("false");
 
+  const customizeValidationMessage = (event) => {
+    event.target.setCustomValidity("");
+    if (!event.target.validity.valid) {
+      event.target.setCustomValidity("Please enter a valid email");
+    }
+  };
+
   const handleBlur = (e) => {
     if (!submitted) return;
     if (e.target.id === "grid-first-name" && e.target.value === "") {
@@ -58,7 +65,7 @@ const Contact = () => {
                   onBlur={handleBlur}
                 />
                 {nameError === "true" && (
-                  <p className="text-red-500 text-xs italic">
+                  <p className="text-red-500 text-xs italic font-bold text-lg">
                     Please enter your name.
                   </p>
                 )}
@@ -77,9 +84,11 @@ const Contact = () => {
                   placeholder="Email"
                   required
                   onBlur={handleBlur}
+                  onInvalid={customizeValidationMessage}
+                  onInput={customizeValidationMessage}
                 />
                 {emailError === "true" && (
-                  <p className="text-red-500 text-xs italic">
+                  <p className="text-red-500 text-xs italic font-bold text-lg">
                     Please enter your email.
                   </p>
                 )}
@@ -101,7 +110,7 @@ const Contact = () => {
                   onBlur={handleBlur}
                 ></textarea>
                 {messageError === "true" && (
-                  <p className="text-red-500 text-xs italic">
+                  <p className="text-red-500 text-xs italic font-bold text-lg">
                     Please enter your message.
                   </p>
                 )}
