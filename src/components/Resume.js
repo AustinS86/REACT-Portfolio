@@ -7,14 +7,15 @@ const Resume = () => {
       <Container>
         <h1 className="text-4xl mt-4 font-bold text-white">Resume</h1>
         <section className="flex flex-col items-center font-bold text-white text-xl">
-          Download my resume
+          <h2>Download my resume:</h2>
           <a
-            href="https://www.linkedin.com/in/austins86/"
+            href="https://1drv.ms/w/s!AhwGtqkRgroEm1F4eWatnQFsdH36?e=MVjyRs"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 mb-4"
+            download
+            className=" mb-4 py-2 px-4 rounded bg-coolors-3 text-white font-bold"
           >
-            here
+            Download Resume
           </a>
           <section className="w-full">
             <h2>Front End Proficiency</h2>
