@@ -65,7 +65,7 @@ const Contact = () => {
                   onBlur={handleBlur}
                 />
                 {nameError === "true" && (
-                  <p className="text-red-500 text-xs italic font-bold text-lg">
+                  <p className="text-red-500 italic font-bold text-lg">
                     Please enter your name.
                   </p>
                 )}
@@ -88,7 +88,7 @@ const Contact = () => {
                   onInput={customizeValidationMessage}
                 />
                 {emailError === "true" && (
-                  <p className="text-red-500 text-xs italic font-bold text-lg">
+                  <p className="text-red-500 italic font-bold text-lg">
                     Please enter your email.
                   </p>
                 )}
@@ -110,7 +110,7 @@ const Contact = () => {
                   onBlur={handleBlur}
                 ></textarea>
                 {messageError === "true" && (
-                  <p className="text-red-500 text-xs italic font-bold text-lg">
+                  <p className="text-red-500 italic font-bold text-lg">
                     Please enter your message.
                   </p>
                 )}
