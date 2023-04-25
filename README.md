@@ -6,24 +6,39 @@
 
 - [Description](#description)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Internal](#internal)
+- [Portfolio](#portfolio)
+- [Tools](#tools)
 - [Future Development](#future-development)
+- [Screenshot](#screenshot)
 - [License](#license)
 - [Questions](#questions)
 
 ## Description
+Welcome to my React-based portfolio! Upon loading the page, you'll find a brief introduction about me, a showcase of my work in the portfolio section, my resume, and a contact form for getting in touch. Enjoy exploring!e. 
 
 ## Installation
 
-## Usage
+No Installation just click the link below to go to my Portfolio! 
 
-## API
+## Portfolio 
 
-### NPM'S
-
+## Tools
+- HTML
+- CSS
+- JavaScript
+- REACT
 - Express
 - Node
+- Postcss
+- TailwindCss
+- Framer-Motion
+- Fort-Awesome
+
+## Future Development 
+I'm working on adding a feature to the contact form that enables you to input your information, which will then be sent directly to me. This will streamline the process of getting in touch and allow for easier communication.
+
+## Screenshot
+
 
 ## License
 
@@ -31,7 +46,7 @@ Licensed under [MIT](https://choosealicense.com/licenses/mit/) license
 
 ## Questions
 
-If you have any questions please contact us:
+If you have any questions please contact me:
 
 GitHub:
 
