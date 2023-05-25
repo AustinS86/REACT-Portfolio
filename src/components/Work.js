@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import CodeScreen from "../assets/images/pexels-pixabay-256502.jpg";
 import Totoro from "../assets/images/totoro-bw.png";
 import Peard from "../assets/images/spaghetti-1932466_1920 (1).jpg";
-import Bandwagon from "../assets/images/bandwagon-screenshot.jpg";
+import Bandwagon from "../assets/images/Bandwagon.jpg";
 import Jate from "../assets/images/JATE.jpg";
 import Weather from "../assets/images/weather-dashboard-screenshot.jpg";
 import TechBlog from "../assets/images/Developer-Tech-Blog.jpg";
