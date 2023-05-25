@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import CodeScreen from "../assets/images/pexels-pixabay-256502.jpg";
 import Totoro from "../assets/images/totoro-bw.png";
 import Peard from "../assets/images/spaghetti-1932466_1920 (1).jpg";
+import Bandwagon from "../assets/images/bandwagon-screenshot.jpg";
 import Jate from "../assets/images/JATE.jpg";
 import Weather from "../assets/images/weather-dashboard-screenshot.jpg";
 import TechBlog from "../assets/images/Developer-Tech-Blog.jpg";
@@ -103,6 +104,33 @@ const Work = () => {
                 className="project-link text-xl"
               >
                 TotoroBank
+              </a>
+            </div>
+          </div>
+
+          <div className="project-container">
+            <img
+              src={Bandwagon}
+              alt="Bandwagon Screenshot"
+              className="w-full object-cover h-48 object-center"
+            />
+            <div className="project-info">
+              <h3 className="project-name">{/* Empty anchor tag */}</h3>
+              <a
+                href="https://github.com/jjsmith32199/Bandwagon"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link inline-block mr-4"
+              >
+                <i className="fab fa-github-square fa-3x"></i>
+              </a>
+              <a
+                href="https://whispering-island-08807.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link text-xl"
+              >
+                Bandwagon
               </a>
             </div>
           </div>
